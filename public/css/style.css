@@ -1,0 +1,24 @@
+main, footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#reader {
+    width: 600px;
+}
+#result, .result{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+footer{
+    flex-direction: column;
+    margin-top: 50px;
+}
+#submit_button{
+    margin-top: 15px;
+}
+#button a{
+    text-decoration: none;
+    color: black;
+}
